@@ -27,8 +27,9 @@ To install Unity2022.3.57f1 or higher version for Game Development.
 ![image](https://github.com/user-attachments/assets/7e1dd5c5-4398-4c10-89cd-5f0442f49c59)
 
 10.Select projects and create new 2D or 3D project and verify all are working
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/971ac6b6-18c8-46e7-a97a-646468e431fa" />
 
-![image](https://github.com/user-attachments/assets/c902763e-4ba5-42b7-8251-a74db9ba5a42)
+
 ### Output:
 
 ### Result:
