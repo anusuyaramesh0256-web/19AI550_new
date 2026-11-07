@@ -1,6 +1,6 @@
 # Ex.No: 3  Basic movements in Unity 
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE:                 07/11/2026                                                           
+### REGISTER NUMBER :     212225220010
 ### AIM: 
  To learn the basic movements translation,scaling and rotation of game objects through code.
 ### Procedure:
@@ -48,16 +48,18 @@ public class TransformOperations : MonoBehaviour
         // Scale object3 up and down
         if (object3 != null)
         {
-           // float scaleChange = Mathf.PingPong(Time.time * scaleSpeed, 1f) + 0.5f; // generates a value that moves back and forth between 0 and length
-           // object3.localScale = new Vector3(scaleChange, scaleChange, scaleChange);
-            object3.localScale+=new Vector3(0.02f.0.02f,0);
+           float scaleChange = Mathf.PingPong(Time.time * scaleSpeed, 1f) + 0.5f;
+
+           object3.localScale = new Vector3(scaleChange, scaleChange, scaleChange);
 
         }
     }
 }
 ```
 ### Output:
+<img width="1920" height="1080" alt="Screenshot 2026-11-07 104927" src="https://github.com/user-attachments/assets/f96043c9-09e5-4846-9814-d3c4152b2f80" />
 
+<img width="1920" height="1080" alt="Screenshot 2026-11-07 105015" src="https://github.com/user-attachments/assets/ca37c558-ab0b-45b0-9860-400354bc7974" />
 
 
 
